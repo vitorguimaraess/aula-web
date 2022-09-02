@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: crimson;
+}
+
+img#hero{
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+img#hero:hover{
+    transform: rotate(330deg);
+    transition: 0.6ms;
+}
+
+h1#hero{
+    color:darkgreen;
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;;
+}
+
+h1#hero:hover{
+    color: goldenrod;
+}
+
+nav ul{
+    align-items: center;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 50px;
+}
+
+li a{
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+li a:hover{
+    color: goldenrod;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: darkgreen;
+    font-family: 'silkscreen', cursive;
+}
+
+h5#color{
+    color: white;
+}
+
+h5#color:hover{
+    color: goldenrod;
+}
+
