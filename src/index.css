@@ -4,6 +4,17 @@
     border: 0px;
 }
 
+
+section#hero{
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Silkscreen', cursive;;
+}
+
+h4#genio:hover{
+    color: goldenrod;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -39,6 +50,7 @@ nav ul{
     justify-content: space-evenly;
     list-style: none;
     height: 50px;
+
 }
 
 li a{
