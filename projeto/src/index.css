@@ -90,14 +90,14 @@ main{
     font-size: 14px;
 }
 
-main section#conquistas{
+main section#VISITAS{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
 
-main section#conquistas p{
+main section#VISITAS p{
     text-align: center;
     margin-left: 20px;
     font-weight: 800;
@@ -105,5 +105,40 @@ main section#conquistas p{
 }
 
 img#orelhuda{
-    width: 300px;
+    width: 400px;
+}
+
+img#caixa{
+    width: 400px;
+}
+
+img#artu{
+    width: 400px;
+}
+
+main section#FOTOS p{
+    text-align: center;
+    margin-left: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+main section#FOTOS{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+main section#lore{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+main section#lore p{
+    text-align: center;
+    margin-left: 20px;
+    font-weight: 800;
+    color: white;
 }
